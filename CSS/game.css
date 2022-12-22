@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Ailerons";
-  src: url("../Fonts/Ailerons-Typeface.otf") format("otf");
+  src: local("Ailerons-Typeface"),
+    url("https://github.com/shiyihang2007/novadrift-online/Fonts/Ailerons-Typeface.otf");
 }
 
 html {
