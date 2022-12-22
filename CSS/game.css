@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Ailerons";
-  src: local("Ailerons-Typeface"),
-    url("https://github.com/shiyihang2007/novadrift-online/Fonts/Ailerons-Typeface.otf");
+  font-family: "Ailerons Title";
+  src: local("Ailerons"), url("../Fonts/Ailerons-Typeface.otf") format("otf");
 }
 
 html {
@@ -10,7 +9,7 @@ html {
 
 .title {
   font-size: 10vh;
-  font-family: "Ailerons", "Consolas";
+  font-family: "Ailerons Title", "Consolas";
 }
 
 .player {
