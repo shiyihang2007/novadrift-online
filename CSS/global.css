@@ -1,0 +1,18 @@
+html {
+  --var-color-light: #000;
+  --var-color-dark: #fff;
+  --var-color-background-light: #333;
+  --var-color-background-dark: #ccc;
+}
+
+body {
+  background-color: var(--var-color-background-dark);
+  color: var(--var-color-dark);
+  min-width: 540px;
+  min-height: 480px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}

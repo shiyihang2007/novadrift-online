@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Ailerons";
+  src: url("../Fonts/Ailerons-Typeface.otf") format("otf");
+}
+
+html {
+  --var-game-color-main: #5af;
+}
+
+.title {
+  font-size: 10vh;
+  font-family: "Ailerons", "Consolas";
+}
+
+.player {
+  height: 10vh;
+  width: 10vh;
+  background-color: var(--var-game-color-main);
+}
