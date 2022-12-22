@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Ailerons Title";
+  src: local("Ailerons"), url(../Fonts/Ailerons-Typeface.otf) format("otf");
+}
+@font-face {
+  font-family: "Smart UI";
+  src: local("03SmartFontUI"), url(../Fonts/03SmartFonttUI.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Gidole";
+  src: local("Gidole"), url(../Fonts/Gidole-Regular.otf) format("otf");
+}
+
+@keyframes titleFadeIn {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 80%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 html {
   --var-color-light: #000;
   --var-color-dark: #fff;
@@ -10,6 +35,39 @@ body {
   color: var(--var-color-dark);
   min-width: 540px;
   min-height: 480px;
+}
+
+.menu {
+  margin-left: 2vh;
+}
+
+.title {
+  width: 60vh;
+  height: 10vh;
+  font-size: 10vh;
+  font-family: "Ailerons Title", "Consolas";
+  animation: 10s titleFadeIn 0s ease-out;
+  cursor: default;
+}
+
+.nav {
+  display: block;
+  margin-top: 2vh;
+  margin-left: 3vh;
+  font-size: 3vh;
+  font-family: "Gidole", "Consolas";
+  animation: 5s titleFadeIn 0s ease-out;
+}
+
+.nav > li {
+  margin-top: 1vh;
+  display: block;
+  cursor: pointer;
+}
+
+.nav > li:hover {
+  transition: all 0.2s ease;
+  text-shadow: 0px 1px 20px #ffff;
 }
 
 .container {

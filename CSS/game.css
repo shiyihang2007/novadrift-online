@@ -1,34 +1,5 @@
-@font-face {
-  font-family: "Ailerons Title";
-  src: local("Ailerons"), url(../Fonts/Ailerons-Typeface.otf) format("otf");
-}
-
 html {
   --var-game-color-main: #5af;
-}
-@keyframes titleFadeIn {
-  0% {
-    opacity: 0%;
-  }
-  30% {
-    opacity: 80%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-.menu {
-  margin-left: 2vh;
-}
-
-.title {
-  float: left;
-  width: 60vh;
-  height: 10vh;
-  font-size: 10vh;
-  font-family: "Ailerons Title", "Consolas";
-  animation: 10s titleFadeIn 0s ease-out;
 }
 
 .player > .body {
