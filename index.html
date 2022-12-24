@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>TEST</title>
     <link href="./CSS/global.css" rel="stylesheet" />
     <link href="./CSS/game.css" rel="stylesheet" />
   </head>
@@ -9,8 +9,30 @@
     <div class="container">
       <div class="menu">
         <div class="title">NOVA DRIFT</div>
+        <ls class="nav">
+          <li>Start</li>
+          <li>Unlocked</li>
+          <li>Guide</li>
+          <li>Authors</li>
+          <li>Settings</li>
+        </ls>
       </div>
-      <div id="game"></div>
+      <div id="game" style="display: none">
+        <div class="player">
+          <div class="body" style="top: 12vh; left: 30vh"></div>
+          <div class="weapon">
+            <div
+              class="standard"
+              style="top: 22vh; left: 30vh; height: 10vh; width: 10vh"
+            >
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="version">v0.00.01</div>
     </div>
+    <script src="./JS/game.js"></script>
   </body>
 </html>
