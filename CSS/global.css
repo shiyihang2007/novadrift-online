@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Ailerons Title";
-  src: local("Ailerons"), url(../Fonts/Ailerons-Typeface.otf) format("otf");
+  src: local("Ailerons"), url(../Fonts/Ailerons-Typeface.otf) format("opentype");
 }
 @font-face {
   font-family: "Smart UI";
-  src: local("03SmartFontUI"), url(../Fonts/03SmartFonttUI.ttf) format("ttf");
+  src: local("03SmartFontUI"), url(../Fonts/03SmartFonttUI.ttf) format("truetype");
 }
 @font-face {
   font-family: "Gidole";
