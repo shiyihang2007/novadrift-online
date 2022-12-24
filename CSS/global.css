@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Ailerons Title";
-  src: local("Ailerons"), url('https://github.com/shiyihang2007/novadrift-online/tree/main/Fonts/Ailerons-Typeface.otf') format("opentype");
+  src: local("Ailerons"), url('https://github.com/shiyihang2007/novadrift-online/blob/main/Fonts/Ailerons-Typeface.otf') format("opentype");
 }
 @font-face {
   font-family: "Smart UI";
-  src: local("03SmartFontUI"), url('https://github.com/shiyihang2007/novadrift-online/tree/main/Fonts/03SmartFonttUI.ttf') format("truetype");
+  src: local("03SmartFontUI"), url('https://github.com/shiyihang2007/novadrift-online/blob/main/Fonts/03SmartFonttUI.ttf') format("truetype");
 }
 @font-face {
   font-family: "Gidole";
-  src: local("Gidole"), url('https://github.com/shiyihang2007/novadrift-online/tree/main/Fonts/Gidole-Regular.otf') format("opentype");
+  src: local("Gidole"), url('https://github.com/shiyihang2007/novadrift-online/blob/main/Fonts/Gidole-Regular.otf') format("opentype");
 }
 
 @keyframes titleFadeIn {
