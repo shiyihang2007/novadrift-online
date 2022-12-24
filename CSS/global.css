@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Gidole";
-  src: local("Gidole"), url(../Fonts/Gidole-Regular.otf) format("otf");
+  src: local("Gidole"), url(../Fonts/Gidole-Regular.otf) format("opentype");
 }
 
 @keyframes titleFadeIn {
